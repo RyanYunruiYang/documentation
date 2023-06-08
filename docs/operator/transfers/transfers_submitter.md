@@ -30,7 +30,7 @@ will only work on transfers having the `transfertool` attribute set to the
 correct value. This database field is filled by the preparer, so preparer is
 required for multi-transfertool deployments.
 
-To verify if a path cen be submitted by any of the transfertools configured
+To verify if a path can be submitted by any of the transfertools configured
 in `conveyor/transfertool`, transfertool-specific RSE attributes are used. For
 example, the fts3 transfertool requires an `fts` RSE attribute with a list of
 fts servers; while the globus transfertool requires the `globus_endpoint_id`
